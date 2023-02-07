@@ -2,7 +2,7 @@
 Main Pi Shield for JUCI CubeSat Project
 
 TODO:
-- add custom symbols like pi_pico_shield to repo
+-
 
 To view these files:
 - run command git clone https://github.com/makerCL/JUCI_CubeSat_SADA.git in your desired directory
