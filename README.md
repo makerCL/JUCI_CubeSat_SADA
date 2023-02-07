@@ -10,8 +10,8 @@ To view these files:
 - add custom symbols and footprints to project specific library in schematic and footprint editors
 
 Subsystem Managers:
-Miles - Electronics
-Gavin - Software
-James - Project Management
-Kory  - Mechanical
-Jose  - Mechanical
+- Miles - Electronics
+- Gavin - Software
+- James - Project Management
+- Kory  - Mechanical
+- Jose  - Mechanical
