@@ -1,0 +1,3 @@
+C:/Users/gavin/Documents/School/ENGINEERING/ME 428-430/JUCI_CubeSat_SADA/Software/Stepper_Motor_driver/build/pioasm/CMakeFiles/pioasm.dir
+C:/Users/gavin/Documents/School/ENGINEERING/ME 428-430/JUCI_CubeSat_SADA/Software/Stepper_Motor_driver/build/pioasm/CMakeFiles/edit_cache.dir
+C:/Users/gavin/Documents/School/ENGINEERING/ME 428-430/JUCI_CubeSat_SADA/Software/Stepper_Motor_driver/build/pioasm/CMakeFiles/rebuild_cache.dir
