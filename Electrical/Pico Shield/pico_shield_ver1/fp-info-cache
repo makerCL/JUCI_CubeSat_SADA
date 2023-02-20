@@ -1,4 +1,4 @@
-21722173212795174
+21742294961275921
 0_custom
 EXT_no_footprint
 
@@ -6,6 +6,13 @@ EXT_no_footprint
 0
 0
 0
+0_custom
+PICO_SHIELD
+
+
+0
+40
+40
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -58597,12 +58604,89 @@ Yellow 5381 Series LED
 2
 2
 Miles Added
+691412320002M
+691412320002M-2
+Connector
+0
+2
+2
+Miles Added
 644752-2_TYC
 
 644752-2 
 0
 2
 2
+Miles Added
+M08A
+
+LM358MX 
+0
+8
+8
+Miles Added
+M08A-L
+
+LM358MX 
+0
+8
+8
+Miles Added
+M08A-M
+
+LM358MX 
+0
+8
+8
+Miles Added
+PW0016A_L
+
+ULN2003APW 
+0
+16
+16
+Miles Added
+PW0016A_M
+
+ULN2003APW 
+0
+16
+16
+Miles Added
+PW0016A_N
+
+ULN2003APW 
+0
+16
+16
+Miles Added
+SOIC127P600X175-9N
+
+
+0
+9
+9
+Miles Added
+ULN2003ADR2G_OSI
+
+ULN2003ADR2G 
+0
+16
+16
+Miles Added
+ULN2003ADR2G_OSI-L
+
+ULN2003ADR2G 
+0
+16
+16
+Miles Added
+ULN2003ADR2G_OSI-M
+
+ULN2003ADR2G 
+0
+16
+16
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
