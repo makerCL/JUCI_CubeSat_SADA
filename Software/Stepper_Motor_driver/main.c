@@ -24,11 +24,9 @@ int main() {
     }
     uint8_t gpio_ports[4] = {21,20,19,18};
 
-
     uint8_t s;
     uint16_t curr_step = 0;
     const float step_const = 2048/360;
-
 
     sleep_ms(3000);
 
