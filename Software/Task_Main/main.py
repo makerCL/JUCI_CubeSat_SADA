@@ -1,4 +1,4 @@
-from machine import Pin
+from machine import Pin, WDT
 from time import sleep
 import cotask
 import task_share
@@ -55,7 +55,12 @@ def Task_1():
 
         # State 3: Zero Tracking Mode
         elif state1.get() == 3:
-            pass
+            lost = mot1.zero_tracking()
+            if lost:
+                state1.put(0)
+                mode1.put(1)
+            else:
+                pass
 
         # State 4: Constant Uptick Mode
         elif state1.get() == 4:
@@ -99,6 +104,9 @@ if __name__ == "__main__":
 
     mot1 = stepper(21,20,19,18,adc1)
     mot2 = stepper(10,11,12,13,adc2)
+
+    wdt = WDT(timeout=2000)
+    # Need to implement wdt.feed() in select locations 
 
     GP01 = Pin(1,Pin.IN,Pin.PULL_UP)
     GP01.irq(trigger=Pin.IRQ_FALLING, handler=button1_cb)

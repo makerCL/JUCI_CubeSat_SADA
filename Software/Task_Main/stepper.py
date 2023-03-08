@@ -50,6 +50,15 @@ class stepper:
             return True
     
 # =============================================================================
+# Zero Tracking: Find position of brightness, return to zero when lost.
+# =============================================================================
+    def zero_tracking(self):
+        curr_light = self.adc.read()
+        while curr_light <= self.direct_light:
+            self.move(1)
+        return True
+
+# =============================================================================
 # Uptick Tracking: Track the sun by continuing to increase the tick until lost.
 # =============================================================================
     def uptick_tracking(self):
