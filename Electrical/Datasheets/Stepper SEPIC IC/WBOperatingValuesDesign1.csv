@@ -1,0 +1,43 @@
+﻿Name,Value,Category,Description
+Iin Avg,1.19 A,IC,Average input current
+Vout,5 V,System Information,Operational Output Voltage
+Pout,4 W,System Information,Total output power
+Efficiency,90.5%,System Information,Steady state efficiency
+Frequency,489.43 kHz,System Information,Switching frequency
+Duty Cycle,58.55%,System Information,Duty cycle
+Mode,CCM,System Information,Conduction Mode
+Iout_DCM,157.01 mA,System Information,Approximate Current below which DCM mode of operation will begin
+M1 Pd,50.42 mW,Mosfet,M1 MOSFET total power dissipation
+M1 TjOP,103.28 °C,Mosfet,M1 MOSFET junction temperature
+IC Pd,6.38 mW,IC,IC power dissipation
+ICThetaJA,61.3 °C/W,IC,IC junction-to-ambient thermal resistance
+IC Tj,100.39 °C,IC,IC junction temperature
+L1 Pd,99.57 mW,Transformer,Power Dissipation in the Inductor
+L1 Ipri pk,1.31 A,Transformer,L1 primary pk current.
+L1 Ipri RMS,1.13 A,Transformer,L1 primary rms current.
+M1 Irms,1.49 A,Mosfet,M1 MOSFET Irms
+M1 Ipp,724.79 mA,System Information,M1 ripple pk-pk.
+M1 Ipk,2.29 A,Current,M1 peak current.
+Rsns Pd,74.5 mW,Resistor,Current Limit Sense Resistor Power Dissipation
+Cout IRMS,950.75 mA,Capacitor,Output capacitor RMS ripple current
+Cin IRMS,104.61 mA,Capacitor,Input capacitor RMS ripple current
+Cs IRMS,950.75 mA,Capacitor,Coupling capacitor RMS ripple current
+D1 Pd,182.5 mW,Diode,Output Diode Power Dissipation
+L1 Isec pk,981.2 mA,Transformer,Peak current in L1 secondary
+L1 Ipri Ipp,362.39 mA,Transformer,L1 primary side ripple pk-pk.
+L1 Isec Ipp,362.39 mA,Transformer,L1 secondary side ripple pk-pk.
+L1 Is RMS,806.81 mA,Transformer,L1 secondary rms current
+Vout p-p,20.36 mV,System Information,Peak-to-peak output ripple voltage
+FootPrint,NA,System Information,Total Foot Print Area of BOM components
+Vout Actual,4.98 V,System Information,Vout Actual calculated based on selected voltage divider resistors
+Vout Tolerance,0.96%,System Information,Vout Tolerance based on IC Tolerance (no load) and voltage divider resistors if applicable
+Vin,3.7 V,System Information,Vin operating point
+Iout,800 mA,System Information,Iout operating point
+M1 Pd,50.42 mW,Power,M1 MOSFET total power dissipation
+IC Pd,6.38 mW,Power,IC power dissipation
+L1 Pd,99.57 mW,Power,Power Dissipation in the Inductor
+Rsns Pd,74.5 mW,Power,Current Limit Sense Resistor Power Dissipation
+D1 Pd,182.5 mW,Power,Output Diode Power Dissipation
+Total BOM,NA,System Information,Total BOM Cost
+Total Pd,417.88 mW,Power,Total Power Dissipation
+BOM Count,22 ,System Information,Total Design BOM count
