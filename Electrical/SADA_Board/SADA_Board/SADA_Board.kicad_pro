@@ -417,15 +417,15 @@
     ],
     [
       "7aa0e0d2-8277-49d9-8446-a7cf9d365f33",
-      "PHOTODIODE CIRCUITS"
-    ],
-    [
-      "b67f863f-73d7-4e6e-9212-bc965ed812e8",
-      "Stepper Drivers"
+      "CRNR PHOTODIODES"
     ],
     [
       "990de099-a229-41e4-9e29-a8c975d3734d",
       "USB and MCU LDO"
+    ],
+    [
+      "e3edcc8a-994c-42f1-bee2-8fc5bbb3ad79",
+      "Steppers"
     ]
   ],
   "text_variables": {}

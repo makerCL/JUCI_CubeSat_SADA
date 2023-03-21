@@ -1,4 +1,11 @@
-21760545091801317
+21777335572839997
+0_custom
+ECS-XTAL-5.0x3.2
+
+
+0
+0
+0
 0_custom
 EXT_no_footprint
 
@@ -18,8 +25,8 @@ XAL1010-682MED
 
 
 0
-0
-0
+2
+2
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -58625,6 +58632,20 @@ Miles Added
 2
 2
 Miles Added
+1054311202
+105431-1202-2
+Connector
+0
+4
+4
+Miles Added
+1719730004
+171973-0004-1
+Connector
+0
+4
+4
+Miles Added
 CSD15571Q2
 CSD15571Q2-1
 MOSFET (N-Channel)
@@ -58635,6 +58656,13 @@ Miles Added
 Crystal_SMD_HC49-US
 SMD Crystal HC-49-SD http://cdn-reichelt.de/documents/datenblatt/B400/xxx-HC49-SMD.pdf, 11.4x4.7mm^2 package
 SMD SMT crystal
+0
+2
+2
+Miles Added
+DIOM5226X240N
+SMA
+Diode
 0
 2
 2
@@ -58695,6 +58723,20 @@ ULN2003APW
 16
 16
 Miles Added
+QFN50P300X300X100-17N
+VFQFPN 3x3x1.0 16L
+Integrated Circuit
+0
+17
+17
+Miles Added
+QFN50P300X400X80-21N
+RVC0020A
+Integrated Circuit
+0
+21
+21
+Miles Added
 RP2040-QFN-56
 QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
 QFN DFN_QFN
@@ -58709,12 +58751,33 @@ SOIC127P600X175-9N
 9
 9
 Miles Added
+SON50P200X200X80-9N-D
+T822+1
+Integrated Circuit
+0
+9
+9
+Miles Added
+SON65P200X200X80-7N
+LP5912Q3.3DRVRQ1
+Integrated Circuit
+0
+7
+7
+Miles Added
 SOP65P640X120-15N
 PWP0014H_2021
 Integrated Circuit
 0
 15
 15
+Miles Added
+SOT95P284X110-6N
+SOT23-6
+Integrated Circuit
+0
+6
+6
 Miles Added
 ULN2003ADR2G_OSI
 
@@ -58764,6 +58827,13 @@ NCV68261MTWAITBG
 0
 7
 7
+Miles Added
+XTAL_ECS-160-8-36Q-AES-TR
+
+
+0
+4
+4
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet

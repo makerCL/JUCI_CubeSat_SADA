@@ -1471,10 +1471,6 @@
     (effects (font (size 2 2)) (justify left bottom))
     (uuid 7f75468c-d85f-4ba8-95e8-735aa65af6a1)
   )
-  (text " S20STH30-0604A" (at 189.865 140.335 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid b81f9bf1-3f55-4cfd-bf55-6f83f8305a30)
-  )
   (text "Schematic Notes:\n- ULN2003 has Internal Flyback Diodes"
     (at 15.875 20.955 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
