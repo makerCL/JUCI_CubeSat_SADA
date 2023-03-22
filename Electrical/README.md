@@ -19,7 +19,9 @@ The "SADA BOARD" encompasses all the functionality necessary for the Solar Array
 ##Functionality
 - Voltage regulator accepts between 3.7 to 4.2V from an external power supply, which represents a single parallel group of Lithium Ion cells, as would like be present in a CubeSat since about 66% of nano and pico scale satellites implement them.(Bouwmeester and Guo). A battery and battery management system is out of scope for this project.
 - Nichrome Wire burner: to burn the fishing line that passively retains the spring-loaded solar arrays, we use Nichrome burn wire. This is necessary since the satellite must be powered off during launch. There are pins used to control the burn signal, one of which is the enable for the PMIC, the other of which controls a Mosfet for connecting power to the Nichrome. In some tests, we found that when the system was powered up from its launch state, if the power supply was turned on with a direct connection to the wire it heated it slower, resulting in less reliable deployment. By having a transistor, we can allow the PMIC to become fully stable, and then open it to heat the wire. This PMIC can then be disable to save power after the wire is burnt. Our tests foudn that about 1.5A was the minimum current to heat the wire enough to cleanly burn the fishing line.
-- Photodiode measurement circuits: since in a full CubeSat build there would need to be orientation photodiodes on each corner, the peripherals are provided to do so. This includes a MUX to an ADC channel of the MCU to take this measurement.
+- Attitude Determination Diodes: since in a full CubeSat build there would need to be orientation photodiodes on each corner, the peripherals are provided to do so. This includes a MUX to an ADC channel of the MCU to take this measurement.
+    - The photodiodes were connected in reverse bias to the inverting input of an op amp. To take a reading with good resolution, this tiny current must be amplified before reaching an ADC. Transconductance amplifiers are a way to do this, connecting the photodiode to the inverting input of an op-amp, the non-inverting input to ground, and placing a feedback resistor from inverting input to output. A capacitor in parallel with the feedback resistor adds stability by acting as a voltage buffer. Capacitance in the photodiode combined with the feedback resistor naturally create a low pass filter as well. The output voltage of the amplifier can then be connected to an ADC channel of the MCU. The voltage sent to the ADC channel is equal to the photodiode current times the feedback resistor plus the offset voltage at the non-inverting input.
+    - It is important to verify the photodiode current is at least an order of magnitude more than the input bias current of the op amp, which roughly doubles with ever 10 deg C increase in temperature.
 - Stepper Motor Drivers: Since the stepper motors for axial rotation of the arrays need to be driven from the MCU, a Darlington Transistor array is used to accomplish this. This allows the small current of the MCU GPIO to drive the much higher current needed by a stepper, taken from the 5V supply. Stepper motors are precise, but very power hungry due to _________, so we decided to have MOSFETS that can disconnect from power for when the steppers are not actively changed. This does eliminate some functionality of the steppers, such as fractional stepping, but the resolution of that is far greater than our sensing method's, and thus we couldn't take advantage of it anywyas.
 - Breakout board connectors: connectors to the Photodiode Breakout Board are implemented for 2 MUX pins, an ADC channel, power and ground
 
@@ -42,7 +44,8 @@ SOFTWARE
 
 
 ##Citations:
-J. Bouwmeester, J. Guo, Survey of worldwide pico- and nanosatellite missions, distributions and subsystem technology, Acta Astronautica,
+1. J. Bouwmeester, J. Guo, Survey of worldwide pico- and nanosatellite missions, distributions and subsystem technology, Acta Astronautica,
+2.  https://www.analog.com/en/technical-articles/optimizing-precision-photodiode-sensor-circuit-design.html
 
 
 CONCERNS:
