@@ -1,11 +1,11 @@
-21777335572839997
+21780694782668552
 0_custom
 ECS-XTAL-5.0x3.2
 
 
 0
-0
-0
+4
+4
 0_custom
 EXT_no_footprint
 
@@ -20,6 +20,13 @@ PICO_SHIELD
 0
 40
 40
+0_custom
+VQFN-9
+
+
+0
+9
+9
 0_custom
 XAL1010-682MED
 
@@ -58663,6 +58670,13 @@ Miles Added
 DIOM5226X240N
 SMA
 Diode
+0
+2
+2
+Miles Added
+INDPM3630X150N
+ER
+Inductor
 0
 2
 2

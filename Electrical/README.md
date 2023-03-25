@@ -43,6 +43,8 @@ SOFTWARE
 - NRST Pin exposed to systems board so that software reflash could be triggered externally and passed through I2C instead of SWD. On our board though, we still have teh SWD pins exposed since that is how we will be flashing code. NRST is also helpful as an external reset as it resets the registers and changes the program counter to the reset vector. https://electronics.stackexchange.com/questions/491068/what-is-the-use-of-nrst-pin-in-stm32f401rct6 and p21 of Data sheet
 
 
+
+
 ##Citations:
 1. J. Bouwmeester, J. Guo, Survey of worldwide pico- and nanosatellite missions, distributions and subsystem technology, Acta Astronautica,
 2.  https://www.analog.com/en/technical-articles/optimizing-precision-photodiode-sensor-circuit-design.html

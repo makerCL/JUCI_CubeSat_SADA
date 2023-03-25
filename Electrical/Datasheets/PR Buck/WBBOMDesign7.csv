@@ -1,0 +1,8 @@
+﻿Part,Manufacturer,Part Number,Quantity,Price ($),Footprint (mm²),Description
+Rfbb,Vishay-Dale,CRCW0402100KFKED,1,0.01,3,Resistance: 100 kΩ  Tolerance: 1.0%  Power: 63 mW  
+Rfbt,Vishay-Dale,CRCW0402232KFKED,1,0.01,3,Resistance: 232 kΩ  Tolerance: 1.0%  Power: 63 mW  
+L1,Vishay-Dale,IHLP1212AEERR22M11,1,0.63,19.32,L: 220 nH  DCR: 11.4 mΩ  IDC: 8.5 A  
+Cin,MuRata,GRM188R60J106ME47D,2,0.03,4.68,Cap: 10 µF  Total Derated Cap: 6.6 µF  VDC: 6.3 V  ESR: 9 mΩ  Package: 0603  
+Cout,MuRata,GRM21BD70J226ME44L,2,0.1,6.75,Cap: 22 µF  Total Derated Cap: 38 µF  VDC: 6.3 V  ESR: 1 mΩ  Package: 0805  
+U1,Texas Instruments,TPS62867RQYR,1,0.903,8.75,
+Rpgood,Vishay-Dale,CRCW0402100KFKED,1,0.01,3,Resistance: 100 kΩ  Tolerance: 1.0%  Power: 63 mW  
