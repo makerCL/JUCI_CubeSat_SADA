@@ -53,6 +53,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.15,
+          "via_gap": 1.0,
+          "width": 0.24
         }
       ],
       "drc_exclusions": [],
@@ -140,7 +145,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "pin_to_pin|1851660|825500|3c927e0a-1d92-471c-9468-a9a392894042|b6f58a2b-7312-42d3-b0f7-951b8b208a44",
+      "pin_to_pin|1991360|850900|a1d72a52-9647-410a-b709-f407a9eb925f|b6f58a2b-7312-42d3-b0f7-951b8b208a44",
+      "pin_to_pin|2151380|353060|db5ed3ec-d06a-48be-9287-a604ed3f9fc1|1e905221-dff7-4de9-bab3-78ae418159ce",
+      "pin_to_pin|2291080|378460|95cb614e-833f-460f-828d-517b0976eeee|1e905221-dff7-4de9-bab3-78ae418159ce"
+    ],
     "meta": {
       "version": 0
     },
@@ -381,7 +391,10 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Burn-Batt",
-        "nets": [],
+        "nets": [
+          "/Passive Retainment/Burn_HS",
+          "/Passive Retainment/Burn_LS"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.5,
@@ -398,11 +411,68 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "Power",
-        "nets": [],
+        "name": "Motor Current",
+        "nets": [
+          "/Steppers /MTR1_BLK",
+          "/Steppers /MTR1_BLU",
+          "/Steppers /MTR1_GRN",
+          "/Steppers /MTR1_RED",
+          "/Steppers /MTR2_BLK",
+          "/Steppers /MTR2_BLU",
+          "/Steppers /MTR2_GRN",
+          "/Steppers /MTR2_RED",
+          "/Steppers /SENSE_A_M1",
+          "/Steppers /SENSE_A_M2",
+          "/Steppers /SENSE_B_M1",
+          "/Steppers /SENSE_B_M2"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.75,
+        "track_width": 0.3,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.15,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.229,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB",
+        "nets": [
+          "/USB and MCU LDO/USB_CONN_DN",
+          "/USB and MCU LDO/USB_CONN_DP",
+          "/USB_OTG_FS_DN",
+          "/USB_OTG_FS_DP"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.229,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "i2c",
+        "nets": [
+          "/SYS_SCL",
+          "/SYS_SDA"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.243,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6.0
@@ -476,12 +546,12 @@
       "USB and MCU LDO"
     ],
     [
-      "e3edcc8a-994c-42f1-bee2-8fc5bbb3ad79",
-      "Steppers "
-    ],
-    [
       "64a020a5-4914-42b2-8f18-1d3f13250526",
       "Passive Retainment"
+    ],
+    [
+      "e3edcc8a-994c-42f1-bee2-8fc5bbb3ad79",
+      "Steppers "
     ]
   ],
   "text_variables": {}

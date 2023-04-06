@@ -886,6 +886,10 @@
     (uuid 013b75c5-e880-496e-a8e3-dd2d8720d69b)
   )
 
+  (label "Burn_LS" (at 215.6627 77.3938 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 5ad0a681-7db1-4f45-a587-b4d58c1d02fd)
+  )
   (label "Burn_HS" (at 215.6206 74.8538 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid facfe763-6e08-456a-8f3e-698af567ba51)
