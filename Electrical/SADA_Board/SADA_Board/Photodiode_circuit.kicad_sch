@@ -2732,7 +2732,15 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1285132f-d5d6-4bc4-9a7c-0255c8515e7f)
   )
-  (text "Schematic Notes\n- DNS = Do Not Solder. These photodiodes are not implemented at this time, though\n	functionality is implemented to the board for future uses\n- Example attitude determination photodiodes are SFH 203 P, and supporting circuitry designed\n	around those. Please adjust R_F and buffer capacitor accordingly"
+  (text "Cathodes" (at 154.686 84.836 90)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 6c5dd6c6-0cf4-4678-94e5-c6931ff5476a)
+  )
+  (text "Ground Anodes" (at 191.516 87.884 90)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 7d8650bd-09fc-4ee3-a210-f6b8a2a052d7)
+  )
+  (text "Schematic Notes\n- DNS = Do Not Solder. These photodiodes are not implemented at this time, though\n	functionality is implemented to the board for future uses\n- Example attitude determination photodiodes are SFH 203 P, and supporting circuitry designed\n	around those. Please adjust R_F and buffer capacitor accordingly\n- Photodiodes work in photovoltaic mode: cathodes towards ADC, Anodes grounded"
     (at 16.51 171.323 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f30fdaa6-fd13-460d-8f2e-142e99f24249)
@@ -2857,9 +2865,9 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x16") (at 187.198 74.676 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes)
     (uuid 0f2d46c7-2500-4aa6-add5-4fc735cddb4d)
-    (property "Reference" "J6" (id 0) (at 189.992 74.6759 0)
+    (property "Reference" "J6" (id 0) (at 189.484 56.642 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x16" (id 1) (at 189.992 77.2159 0)
