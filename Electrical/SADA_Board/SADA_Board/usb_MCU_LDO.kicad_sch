@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "CubeSat SADA - Main")
+    (date "2023-04-07")
+    (rev "V1.0")
+    (company "Cal Poly, SLO")
+  )
+
   (lib_symbols
     (symbol "0_custom:{lt}name{gt}" (in_bom yes) (on_board yes)
       (property "Reference" "EXT" (id 0) (at -1.27 2.54 0)
@@ -1523,7 +1530,6 @@
     )
   )
 
-
   (junction (at 229.616 130.048) (diameter 0) (color 0 0 0 0)
     (uuid 0829b3a2-8699-4495-9e24-185fe16044da)
   )
@@ -2753,7 +2759,7 @@
     (property "Reference" "C14" (id 0) (at 81.28 71.374 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "C" (id 1) (at 83.82 71.374 0)
+    (property "Value" "1.5nF" (id 1) (at 83.82 71.374 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (id 2) (at 86.106 73.9648 0)
@@ -2960,8 +2966,8 @@
   (symbol (lib_id "Device:C") (at 182.118 135.128 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 53a4c30e-4bb4-4dc8-80c0-a56c48f25905)
-    (property "Reference" "C17" (id 0) (at 184.023 137.668 90))
-    (property "Value" "1 uF" (id 1) (at 186.563 136.398 90))
+    (property "Reference" "C17" (id 0) (at 186.944 136.398 0))
+    (property "Value" "1uF" (id 1) (at 186.944 134.366 0))
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 181.1528 131.318 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3360,7 +3366,7 @@
     (in_bom yes) (on_board yes)
     (uuid 8832b4a3-4ece-4677-babb-93112b33b763)
     (property "Reference" "C18" (id 0) (at 234.442 138.176 0))
-    (property "Value" "1 uF" (id 1) (at 239.522 138.43 0))
+    (property "Value" "1uF" (id 1) (at 239.522 138.43 0))
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 235.7628 131.318 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3446,7 +3452,7 @@
     (property "Manufacturer_Name" "Molex" (id 8) (at 84.582 49.784 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Manufacturer_Part_Number" "105431-1202" (id 9) (at 84.582 52.324 0)
+    (property "MPN" "105431-1202" (id 9) (at 84.582 52.324 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (pin "1" (uuid 83113438-afee-4260-96a5-3aca153426e5))
@@ -3576,6 +3582,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" (id 3) (at 175.768 31.496 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "USBLC6-2SC6" (id 4) (at 170.688 40.386 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e0477636-b5b5-4ea7-b0a2-2455ba39626a))
@@ -3742,7 +3751,7 @@
     (property "Manufacturer_Name" "Texas Instruments" (id 8) (at 202.946 142.748 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Manufacturer_Part_Number" "LP5912Q3.3DRVRQ1" (id 9) (at 202.946 145.288 0)
+    (property "MPN" "LP5912Q3.3DRVRQ1" (id 9) (at 202.946 145.288 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (pin "1" (uuid fea8b56d-44ef-4be3-9a23-f06d0928216b))

@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "CubeSat SADA - Main")
+    (date "2023-04-07")
+    (rev "V1.0")
+    (company "Cal Poly, SLO")
+  )
+
   (lib_symbols
     (symbol "0_custom:{lt}name{gt}" (in_bom yes) (on_board yes)
       (property "Reference" "EXT" (id 0) (at -1.27 2.54 0)
@@ -2850,7 +2857,7 @@
     (in_bom yes) (on_board yes)
     (uuid 0addfc35-a0c6-4e98-97ea-1cfc1fd64ff8)
     (property "Reference" "C11" (id 0) (at 100.203 85.725 0))
-    (property "Value" "10 nF" (id 1) (at 102.362 91.313 0))
+    (property "Value" "10nF" (id 1) (at 102.362 91.313 0))
     (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (id 2) (at 99.2632 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3138,7 +3145,7 @@
     (property "Datasheet" "" (id 3) (at 107.696 89.408 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "" (id 4) (at 107.696 89.408 0)
+    (property "MPN" "ESD321DPYR" (id 4) (at 107.696 89.408 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6a6f7eaa-ffc6-44e3-bd36-7d909739804a))
