@@ -1402,7 +1402,7 @@
     (effects (font (size 1.5 1.5)) (justify left bottom))
     (uuid dd32ade3-2c29-4c53-9760-4a298486e048)
   )
-  (text "SCHEMATIC NOTES\n- Designed for use with Polalu S20STH30-0604A\n- Chosen to use EN pullup instead of MCU enable control\n- MODE1 and MODE2 grounded since only full stepping is used\n- Vref/RSNS chosen for max current of 0.6A/phase, though this is\n	likely more current than necessary. R_SNS and V_ref can be changed\n	if only significantly lower current is used\n- Vref set at constant 0.19 volts since no microstepping takes place\n- Motor current is set by PWM through V_REF pin. 100% Duty cycle \n	represents I_max motor can handle (0.6A)\n- MCU_STBY is the stepper sleep toggle used to reduce power when motors stationary"
+  (text "SCHEMATIC NOTES\n- Designed for use with Pololu SY20STH30-0604A\n- Chosen to use EN pullup instead of MCU enable control\n- MODE1 and MODE2 grounded since only full stepping is used\n- Vref/RSNS chosen for max current of 0.6A/phase, though this is\n	likely more current than necessary. R_SNS and V_ref can be changed\n	if only significantly lower current is used\n- Vref set at constant 0.19 volts since no microstepping takes place\n- Motor current is set by PWM through V_REF pin. 100% Duty cycle \n	represents I_max motor can handle (0.6A)\n- MCU_STBY is the stepper sleep toggle used to reduce power when motors stationary"
     (at 20.574 191.008 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f09b9f38-d02a-4828-82b2-697671f48368)
