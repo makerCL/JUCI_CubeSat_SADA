@@ -1,0 +1,61 @@
+# from machine import Pin, ADC
+# from time import sleep
+# 
+# GP16 = Pin(16, Pin.OUT)
+# adc = ADC(26)
+# GP16.on()
+# while True:
+#     x = adc.read_u16()
+#     print("Reading: ",x)
+#     sleep(0.1)
+    
+from machine import Pin
+from time import sleep
+import cotask
+import task_share
+from stepper import stepper
+import _thread
+
+
+# =============================================================================
+# TASK 1 Dual Stepper Motor Driving
+# =============================================================================
+def Task_1():
+    while bR_flag == 0:
+        right_m.zero()
+    while bL_flag == 0:
+        left_m.zero()
+    while True:
+
+    pass
+
+# =============================================================================
+# TASK 2 Dual Photodiode ADC Reading
+# =============================================================================
+def Task_2():
+    pass
+
+def buttonR_cb (GP01):
+    pass
+
+def buttonL_cb (GP02):
+    pass
+
+if __name__ == "__main__":
+    right_m = stepper(21,20,19,18)
+    left_m = stepper(10,11,12,13)
+
+    GP01 = Pin(1,Pin.IN,Pin.PULL_UP)
+    GP01.irq(trigger=Pin.IRQ_FALLING, handler=buttonR_cb)
+
+    GP02 = Pin(2,Pin.IN,Pin.PULL_UP)
+    GP02.irq(trigger=Pin.IRQ_FALLING, handler=buttonL_cb)
+
+
+
+    task2 = _thread.start_new_thread(Task_2,())
+
+    right_m.move(360)
+    sleep(2)
+    right_m.move(-360)
+    sleep(2)

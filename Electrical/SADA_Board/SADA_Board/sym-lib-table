@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "TPS25940LRVCR")(type "Legacy")(uri "/Users/milesalderman/Documents/KiCad/digikey-kicad-library/Miles Add/Miles Added Symbols/TPS25940LRVCR.lib")(options "")(descr ""))
+  (lib (name "IHLP1212AEERR22M11")(type "Legacy")(uri "/Users/milesalderman/Documents/KiCad/digikey-kicad-library/Miles Add/Miles Added Symbols/IHLP1212AEERR22M11.lib")(options "")(descr ""))
+  (lib (name "IRLML6244TRPBF")(type "Legacy")(uri "/Users/milesalderman/Documents/KiCad/digikey-kicad-library/Miles Add/Miles Added Symbols/IRLML6244TRPBF.lib")(options "")(descr ""))
+)

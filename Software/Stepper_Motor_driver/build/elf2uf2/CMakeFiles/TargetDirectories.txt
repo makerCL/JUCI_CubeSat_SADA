@@ -1,0 +1,5 @@
+C:/Users/gavin/Documents/School/ENGINEERING/ME 428-430/JUCI_CubeSat_SADA/Software/Stepper_Motor_driver/build/elf2uf2/CMakeFiles/elf2uf2.dir
+C:/Users/gavin/Documents/School/ENGINEERING/ME 428-430/JUCI_CubeSat_SADA/Software/Stepper_Motor_driver/build/elf2uf2/CMakeFiles/edit_cache.dir
+C:/Users/gavin/Documents/School/ENGINEERING/ME 428-430/JUCI_CubeSat_SADA/Software/Stepper_Motor_driver/build/elf2uf2/CMakeFiles/rebuild_cache.dir
+C:/Users/gavin/Documents/School/ENGINEERING/ME 428-430/JUCI_CubeSat_SADA/Software/Stepper_Motor_driver/build/elf2uf2/boot_uf2_headers/CMakeFiles/edit_cache.dir
+C:/Users/gavin/Documents/School/ENGINEERING/ME 428-430/JUCI_CubeSat_SADA/Software/Stepper_Motor_driver/build/elf2uf2/boot_uf2_headers/CMakeFiles/rebuild_cache.dir
