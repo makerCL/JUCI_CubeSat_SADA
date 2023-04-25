@@ -484,7 +484,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "SADA_Board.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
